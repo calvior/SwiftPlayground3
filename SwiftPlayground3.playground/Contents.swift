@@ -34,3 +34,23 @@ print(fruitBasket[1])
 //print out item at index 0
 
 print(fruitBasket[0])
+
+
+//Part 8, Start of Assignment #4
+
+var numberSet: [Int]
+numberSet = [3, 7, 12, 22, 45]
+print(numberSet)
+
+for value in numberSet {
+    print("My favorite number \(value)")
+}
+
+
+//Part 9
+
+let removed = numberSet.remove(at: 2)
+print(numberSet)
+
+numberSet.append(55)
+print(numberSet)
